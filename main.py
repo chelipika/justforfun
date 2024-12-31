@@ -20,3 +20,4 @@ def display_message():
 while True:
     display_firework(random.randint(30, 38))  # Firework effect with random colors
     display_message()  # Main "Happy New Year" message
+    time.sleep(2)
