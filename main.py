@@ -12,7 +12,7 @@ fireworks = [
 ]
 def display_firework(color_code):
     for frame in fireworks:
-        os.system("cls")
+       
         print(f"\033[{color_code}m{frame}")
         time.sleep(0.1)
 def display_message():
